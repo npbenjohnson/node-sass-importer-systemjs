@@ -1,0 +1,29 @@
+{
+  "name": "node-sass-importer-systemjs",
+  "version": "1.0.0",
+  "description": "Importer function for node-sass that resolves SystemJs paths",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npbenjohnson/node-sass-importer-systemjs.git"
+  },
+  "keywords": [
+    "node-sass",
+    "scss",
+    "systemjs",
+    "libsass",
+    "importer"
+  ],
+  "author": "Ben Johnson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/npbenjohnson/node-sass-importer-systemjs/issues"
+  },
+  "homepage": "https://github.com/npbenjohnson/node-sass-importer-systemjs#readme",
+  "dependencies": {
+    "systemjs": "^0.19.26"
+  }
+}
