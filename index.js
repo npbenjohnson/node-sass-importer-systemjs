@@ -1,7 +1,7 @@
 var path = require('path')
 var System = require('systemjs')
 var fs = require('fs')
-var config = require('./package')
+var config = require(process.cwd() + '/package')
 
 var config = config.jspm || config.systemJs
 if(config != null)
